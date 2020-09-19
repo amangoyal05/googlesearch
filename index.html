@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 25%;
+            }
+            form{
+                text-align: center;
+            }
+            .inputbox{
+                width: 570px;
+                height: 27px; 
+                border-radius: 25px;
+                border: 1px solid;
+                padding: 8px;
+                margin-bottom: 20px;
+            }
+            .image{
+                position: absolute;
+                right: 5px;
+            }
+            .advanced{
+                position: absolute;
+                right: 5px;
+                top: 30px;   
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <a href="image.html" class="image">Image Search</a>
+        </div>
+        <div>
+            <a href="advanced.html" class="advanced">Advanced Search</a>
+        </div>
+        <div>
+            <img src="google.jpg">
+        </div>
+        <form>
+            <div>
+                <input type="text" name="q" class="inputbox">
+            </div>
+            <div>
+                <button type="submit" class="searchbutton" formaction="https://google.com/search">Google Search</button>
+                <button type="submit"   name ="btnI" value="1"class="=feelingluckybutton" formaction="https://google.com/search?btnI=1">I'm Feeling Lucky</button>
+            </div>
+        </form>
+   </body>
+</html>
