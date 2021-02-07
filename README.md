@@ -22,6 +22,6 @@ This HTML file consists of code for searching Images directly.<br>
 # index.html
 This HTML file consists of code for the main Google search page.<br>
 <hr>
-All the pages are inter-linked and we can switch between the 3 pages. This is just a basic demonstration of HTML & CSS.
+All the pages are inter-linked and we can switch between the 3 pages. This is just a basic demonstration of HTML & CSS.<br>
 IDE used - Visual Studio Code
 <hr>
